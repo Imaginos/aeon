@@ -199,7 +199,8 @@
 	<string id="31245">NAVIGATION FORME</string>
   
 <!-- Aeon Advanced options -->
-  
+ 
+	<string id="31254">DÉPLACEMENT MENU UN-CLICK (SELECT OUVRE LE SOUS-MENU)</string>
 	<string id="31255">RACCOURCIS DU SOUS-MENU MUSIQUE</string>
 	<string id="31256">RACCOURCIS DU SOUS-MENU SÉRIES TV</string>
 	<string id="31257">RACCOURCIS DU SOUS-MENU FILMS</string>
@@ -452,7 +453,7 @@
 	
 <!-- Submenu / Objects -->
 
-	<string id="31920">RÉCENT</string>
+	<string id="31920">RÉCENTS</string>
 	<string id="31921">TITRES</string>
 	<string id="31922">GENRES</string>
 	<string id="31923">ANNÉES</string>
