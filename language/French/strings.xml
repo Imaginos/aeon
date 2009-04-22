@@ -189,7 +189,7 @@
 	<string id="31235">OPTIONS PAGE PRINCIPALE</string>
 	<string id="31236">AFFICHAGE</string>
 	<string id="31237">FENÊTRE MEDIA</string>
-	<string id="31238">PRESELECTIONS</string>
+	<string id="31238">PRÉSELECTIONS</string>
 	<string id="31239">CONFIGURATION RAPIDE</string>
 	<string id="31240">FANART</string>
 	<string id="31241">IMAGE CONTEXTUELLE</string>
@@ -200,6 +200,9 @@
   
 <!-- Aeon Advanced options -->
   
+	<string id="31255">RACCOURCIS DU SOUS-MENU MUSIQUE</string>
+	<string id="31256">RACCOURCIS DU SOUS-MENU SÉRIES TV</string>
+	<string id="31257">RACCOURCIS DU SOUS-MENU FILMS</string>
 	<string id="31258">AFFICHER LES NOTES (IMDB, ETC.) SUR LA PAGE INFO DES FILMS</string>
 	<string id="31259">ICONS PAR DÉFAUT POUR LES MEDIA FLAGS (OFF POUR ESPACES VIDES)</string>
 	<string id="31260">AFFICHER PANNEAU HEURE</string>
@@ -432,7 +435,8 @@
 	<string id="31819">L'ACCUEIL D'AEON PEUT S'ADAPTER POUR METTRE EN VALEUR VOS FONDS, MAIS AUSSI[CR]S'AGGRANDIR POUR AMÉLIORER L'ACCESSIBILITÉ VISUELLE</string>	
 	<string id="31820">À CHACUN LE SIEN</string>
 	<string id="31821">XBMC EST MULTI-UTILISATEURS, PERMETTANT À CHACUN DE SAUVEGARDER SON PROFIL[CR]FLUX RSS, VUES, PARAMÈTRES ET BIBLIOTHEQUES SONT PRIS EN COMPTE</string>
-<!-- Credits -->
+
+	<!-- Credits -->
 
 	<string id="31900">TEXTURES</string>
 	<string id="31901">FONDS D'ÉCRAN PAR DÉFAUT</string>
@@ -445,5 +449,22 @@
 	<string id="31908">...ET VOUS</string>
 	<string id="31909">AEON REVIENT DANS</string>
 	<string id="31910">ARRIÈRE-PLANS MÉTÉO</string>
+	
+<!-- Submenu / Objects -->
+
+	<string id="31920">RÉCENT</string>
+	<string id="31921">TITRES</string>
+	<string id="31922">GENRES</string>
+	<string id="31923">ANNÉES</string>
+	<string id="31924">ACTEURS</string>
+	<string id="31925">RÉALISATEURS</string>
+	<string id="31926">STUDIOS</string>
+	<string id="31927">ARTISTES</string>
+	<string id="31928">ALBUMS</string>
+	<string id="31929">PLAYLISTS</string>
+	<string id="31930">TOP 100</string>
+	<string id="31931">VIDÉOS</string>
+	<string id="31932">FICHIERS</string>
+	<string id="31933">SÉRIES</string>
 	
 </strings>
