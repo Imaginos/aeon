@@ -3,7 +3,7 @@
 <!--  strings 31000 thru 31999 reserved for skins  -->
 
  <strings>
-	<string id="31000">0.91 (STARK)</string>
+	<string id="31000">0.9 (STARK)</string>
 	<string id="31001"></string>
 	<string id="31002">SILENCE</string>
 	<string id="31003">PAS D'OPTION METEO DANS CETTE VERSION</string>
@@ -199,11 +199,8 @@
 	<string id="31245">NAVIGATION FORME</string>
   
 <!-- Aeon Advanced options -->
- 
-	<string id="31254">DÉPLACEMENT MENU UN-CLICK (SELECT OUVRE LE SOUS-MENU)</string>
-	<string id="31255">RACCOURCIS DU SOUS-MENU MUSIQUE</string>
-	<string id="31256">RACCOURCIS DU SOUS-MENU SÉRIES TV</string>
-	<string id="31257">RACCOURCIS DU SOUS-MENU FILMS</string>
+  
+	<string id="31253">LIER LE RACCOURCIS JEUX AU LANCEUR DE PLUGINS</string>
 	<string id="31258">AFFICHER LES NOTES (IMDB, ETC.) SUR LA PAGE INFO DES FILMS</string>
 	<string id="31259">ICONS PAR DÉFAUT POUR LES MEDIA FLAGS (OFF POUR ESPACES VIDES)</string>
 	<string id="31260">AFFICHER PANNEAU HEURE</string>
