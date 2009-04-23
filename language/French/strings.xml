@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <!-- $Revision: 204$ -->
-<!-- Date of translation : 2009-04-23 (09h10 UMT) -->
+<!-- Date of translation : 2009-04-23 (14h24 UMT) -->
 <!--  strings 31000 thru 31999 reserved for skins  -->
 
  <strings>
@@ -201,7 +201,7 @@
   
 <!-- Aeon Advanced options -->
   
-	<string id="31253">LIER LE RACCOURCIS JEUX AU LANCEUR DE PLUGINS</string>
+	<string id="31253">LIER LE RACCOURCI JEUX AU LANCEUR DE PLUGINS</string>
 	<string id="31258">AFFICHER LES NOTES (IMDB, ETC.) SUR LA PAGE INFO DES FILMS</string>
 	<string id="31259">ICONS PAR DÉFAUT POUR LES MEDIA FLAGS (OFF POUR ESPACES VIDES)</string>
 	<string id="31260">AFFICHER PANNEAU HEURE</string>
