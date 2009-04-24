@@ -35,11 +35,11 @@
 	<include name="ListLabel_MainMusic">
 		<posx>105</posx>
 		<posy>0</posy>
-		<width>580</width>
+		<width>480</width>
 		<height>41</height>
 		<font>Font_List</font>
 		<aligny>center</aligny>
-		<animation effect="slide" start="0,10" end="0,10" time="0" condition="IsEmpty(ListItem.Artist)">Conditional</animation>		
+		<animation effect="slide" start="0,10" end="0,10" time="0" condition="IsEmpty(ListItem.Artist) | Container.Content(artists)">Conditional</animation>		
 	</include>	
 
 	<include name="ListLabel_Sub">
@@ -153,7 +153,7 @@
 	
 	<include name="List_NowPlaying">
 		<posx>860</posx>
-		<width>346</width>
+		<width>336</width>
 		<height>18</height>
 		<font>Font_ListPlaying</font>
 	</include>
@@ -440,7 +440,7 @@
 						<include>ListLabel_SubMusic</include>
 						<include>subcolornofocus</include>	
 						<label>$INFO[ListItem.Artist]</label>
-						<visible>[Window.IsActive(500) | Window.IsActive(501) | Window.IsActive(502)]</visible>					
+						<visible>[Window.IsActive(500) | Window.IsActive(501) | Window.IsActive(502)] + !Container.Content(artists)</visible>					
 					</control>					
 					<control type="label">
 						<include>ListLabel_DetailFull</include>
@@ -554,7 +554,7 @@
 						<include>ListLabel_SubMusic</include>
 						<include>subcolornofocus</include>	
 						<label>$INFO[ListItem.Artist]</label>
-						<visible>[Window.IsActive(500) | Window.IsActive(501) | Window.IsActive(502)]</visible>
+						<visible>[Window.IsActive(500) | Window.IsActive(501) | Window.IsActive(502)] + !Container.Content(artists)</visible>
 						<include>Animation_ButtonFocusFade_fix</include>						
 					</control>				
 					<control type="label">
@@ -647,7 +647,7 @@
 						<include>ListLabel_SubMusic</include>
 						<include>subcolorfocus</include>	
 						<label>$INFO[ListItem.Artist]</label>
-						<visible>[Window.IsActive(500) | Window.IsActive(501) | Window.IsActive(502)]</visible>
+						<visible>[Window.IsActive(500) | Window.IsActive(501) | Window.IsActive(502)] + !Container.Content(artists)</visible>
 						<include>Animation_ButtonFocusFade</include>						
 					</control>				
 					<control type="label">
@@ -714,7 +714,7 @@
 					<control type="label">
 						<include>ListLabel_Track</include>
 						<include>listcolornofocus</include>
-						<label>$INFO[ListItem.Episode]</label>
+						<label>$INFO[ListItem.Season].$INFO[ListItem.Episode]</label>
 						<visible>Container.Content(episodes)</visible>
 					</control>						
 					<control type="label">
@@ -806,7 +806,7 @@
 						<include>ListLabel_Track</include>
 						<include>listcolornofocus</include>
 						<include>Animation_ButtonFocusFade_fix</include>						
-						<label>$INFO[ListItem.Episode]</label>
+						<label>$INFO[ListItem.Season].$INFO[ListItem.Episode]</label>
 						<visible>Container.Content(episodes)</visible>
 					</control>						
 					<control type="label">
@@ -890,7 +890,7 @@
 						<include>ListLabel_Track</include>
 						<include>listcolorfocus</include>
 						<include>Animation_ButtonFocusFade</include>						
-						<label>$INFO[ListItem.Episode]</label>
+						<label>$INFO[ListItem.Season].$INFO[ListItem.Episode]</label>
 						<visible>Container.Content(episodes)</visible>
 					</control>						
 					<control type="label">
@@ -1160,6 +1160,7 @@
 				<include>List_NowPlaying</include>
 				<posy>655</posy>
 				<textcolor>8f000000</textcolor>
+				<scroll>true</scroll>
 				<label>[UPPERCASE]$INFO[MusicPlayer.Artist] - "$INFO[MusicPlayer.Title]"[/UPPERCASE]</label>
 			</control>
 		</control>
@@ -1172,16 +1173,16 @@
 	
 	<control type="scrollbar" id="61">
       <description>My first scroll bar control</description>
-      <posx>786</posx>
-      <posy>188</posy>
-      <width>67</width>
-      <height>416</height>
+      <posx>778</posx>
+      <posy>108</posy>
+      <width>45</width>
+      <height>545</height>
       <visible>Control.IsVisible(50)</visible>
-      <texturesliderbackground>windows/scrollbarback_nofocus.png</texturesliderbackground>
+      <texturesliderbackground>-</texturesliderbackground>
       <texturesliderbar>-</texturesliderbar>
       <texturesliderbarfocus>-</texturesliderbarfocus>
-      <textureslidernib>windows/scrollbarnub-nofocus.png</textureslidernib>
-      <textureslidernibfocus>windows/scrollbarnub-focus.png</textureslidernibfocus>
+      <textureslidernib>-</textureslidernib>
+      <textureslidernibfocus>list/list_scrollclip.png</textureslidernibfocus>
       <pulseonselect></pulseonselect>
       <orientation>vertical</orientation>
       <showonepage>true</showonepage>
@@ -1190,7 +1191,7 @@
       <onleft>50</onleft>
       <onright>2</onright>
 	  <include>Animation_CommonFade</include>
-	  <visible>false</visible>
+	  <animation effect="fade" start="0" end="100" time="200">Focus</animation>
 	</control>
 	
 	<control type="label" id="217">
