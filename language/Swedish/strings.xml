@@ -2,7 +2,7 @@
 <!--Language file translated with Team XBMC Translator-->
 <!--Translator: blittan-->
 <!--Email: blittan@xbmc.org-->
-<!--Date of translation: 04/22/2009-->
+<!--Date of translation: 04/06/2009-->
 <!--$Revision$-->
 <!--Based on english strings version 204-->
 <strings>
@@ -169,7 +169,6 @@
   <string id="31243">INAKTIVERA ALLA</string>
   <string id="31244">MENYER</string>
   <string id="31245">BLÄDDRINGSLAYOUT</string>
-  <string id="31258">VISA BETYG (IMDB, ETC.) PÅ FILMINFO SIDAN</string>
   <string id="31259">STANDARTIKONER FÖR MEDIAFLAGGOR (AV FÖR TOMT UTRYMME)</string>
   <string id="31260">VISA TIDSPANEL</string>
   <string id="31261">STARTSIDANS VÄDER POPUP</string>
