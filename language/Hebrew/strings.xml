@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!--Language file translated with Team XBMC Translator-->
-<!--Date of translation: 04/25/2009-->
+<!--Date of translation: 04/28/2009-->
 <!--$Revision$-->
 <!--Based on english strings version 204-->
 <strings>
@@ -38,27 +38,33 @@
   <string id="31039">עורך</string>
   <string id="31040">מנגן:</string>
   <string id="31041">של:</string>
+  <string id="31044">רקע</string>
+  <string id="31045">צלמית</string>
+  <string id="31046">עלילה</string>
+  <string id="31047">פריסה</string>
+  <string id="31048">לחיצה</string>
+  <string id="31049">אוטומטי</string>
   <string id="31050">תצוגה:</string>
   <string id="31051">אקראי</string>
   <string id="31052">עבה</string>
   <string id="31053">דק</string>
   <string id="31054">הגדרות</string>
   <string id="31055">ערימה</string>
-  <string id="31056">צילומית: מרובעת</string>
+  <string id="31056">צלמית: מרובעת</string>
   <string id="31057">קבצים</string>
   <string id="31058">הסתר ניצפו</string>
-  <string id="31059">צילומית: פוסטר</string>
+  <string id="31059">צלמית: פוסטר</string>
   <string id="31060">פריסה: שטוחה</string>
   <string id="31061">פריסה: זורמת</string>
   <string id="31062">עונה</string>
   <string id="31063">פרק</string>
   <string id="31064">FANART</string>
   <string id="31065">PANEL</string>
-  <string id="31066">-</string>
+  <string id="31066">סימון ניצפו</string>
   <string id="31067">רקע</string>
   <string id="31068">ספריה</string>
   <string id="31069">דגלים</string>
-  <string id="31070">-</string>
+  <string id="31070">מידע</string>
   <string id="31071">שקוף</string>
   <string id="31072">מלא</string>
   <string id="31073">ברירת מחדל</string>
@@ -98,10 +104,10 @@
   <string id="31107">הזז ימינה \ שמאלה לעיון, בחר לשינוי</string>
   <string id="31108">שנה סגנונות פרטי מידע עליונים (נוכחי: מינימלי)</string>
   <string id="31109">שנה את מד ההתקדמות (נוכחי: מופעל)</string>
-  <string id="31110">שנה את הטקסט שעה \ אורך (נוכחי: מכובה)</string>
+  <string id="31110">שנה את הטקסט  שעה \ אורך (נוכחי: מכובה)</string>
   <string id="31111">שנה סגנונות פרטי מידע עליונים (נוכחי: מקסימלי)</string>
   <string id="31112">שנה את מד ההתקדמות (נוכחי: מכובה)</string>
-  <string id="31113">שנה את הטקסט שעה \ אורך (נוכחי: מופעל)</string>
+  <string id="31113">שנה את הטקסט  שעה \ אורך (נוכחי: מופעל)</string>
   <string id="31120">רקעים</string>
   <string id="31121">התאם את AEON אישית</string>
   <string id="31122">קיצורים</string>
@@ -245,7 +251,7 @@
   <string id="31349">איזורי חיוג ומרחב</string>
   <string id="31350">הגדרות עיון</string>
   <string id="31351">מקורות אונליין</string>
-  <string id="31400">אין פוסטר? [CR][CR] בדוק שיש לך צילומית "גדולה" נפרדת [CR]לצד קובץ הסרט שלך וש[CR] שימוש בשמות הוא נכון [CR] (MOVIE.MKV-BIG.PNG) [CR] [CR] בדוק את מדריך השימוש של AEON בשביל פרטים נוספים</string>
+  <string id="31400">אין פוסטר? [CR][CR] בדוק שיש לך צלמית "גדולה" נפרדת [CR]לצד קובץ הסרט שלך וש[CR] שימוש בשמות הוא נכון [CR] (MOVIE.MKV-BIG.PNG) [CR] [CR] בדוק את מדריך השימוש של AEON בשביל פרטים נוספים</string>
   <string id="31401">נכתב על ידי</string>
   <string id="31402">בוים על ידי</string>
   <string id="31403">פרקים:</string>
@@ -253,7 +259,7 @@
   <string id="31405">בכיכובם של</string>
   <string id="31406">פרקים</string>
   <string id="31407">הוצג לראשונה</string>
-  <string id="31408">IMDB</string>
+  <string id="31408">ציון IMDB</string>
   <string id="31409">קידמון</string>
   <string id="31410">רענן</string>
   <string id="31411">צפה</string>
@@ -263,7 +269,7 @@
   <string id="31415">הביוגרפיה אינה זמינה</string>
   <string id="31416">סגנונות</string>
   <string id="31417">דירוג</string>
-  <string id="31418">צילומית</string>
+  <string id="31418">צלמית</string>
   <string id="31419">רענן</string>
   <string id="31420">המשך</string>
   <string id="31421">נגן</string>
@@ -283,6 +289,12 @@
   <string id="31435">פרטי הצוות אינם זמינים</string>
   <string id="31436">שנה</string>
   <string id="31438">ז'אנר</string>
+  <string id="31439">ניצפו</string>
+  <string id="31440">לא ניצפו</string>
+  <string id="31441">המידע על התאריך אינו זמין</string>
+  <string id="31442">המידע על תאריך השינוי אינו זמין</string>
+  <string id="31443">המידע על הרזולוציה אינו זמין</string>
+  <string id="31444">המידע על גודל הקובץ אינו זמין</string>
   <string id="31500">חדשות</string>
   <string id="31501">עידכוני AEON אונליין</string>
   <string id="31502">סימני חיים</string>
@@ -398,4 +410,9 @@
   <string id="31931">וידאו</string>
   <string id="31932">קבצים</string>
   <string id="31933">סדרות</string>
+  <string id="31934">סרטים</string>
+  <string id="31935">פריטים</string>
+  <string id="31936">רצועות</string>
+  <string id="31937">עונות</string>
+  <string id="31938">פרקים</string>
 </strings>
